@@ -9,6 +9,8 @@
         <module name="dubbo_api" />
         <module name="dubbo_consumer" />
         <module name="dubbo_provider" />
+        <module name="sb_dubbo_consumer" />
+        <module name="sb_dubbo_provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +18,8 @@
       <module name="dubbo_consumer" target="1.8" />
       <module name="dubbo_provider" target="1.8" />
       <module name="myDubbo" target="1.8" />
+      <module name="sb_dubbo_consumer" target="1.8" />
+      <module name="sb_dubbo_provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
