@@ -11,8 +11,8 @@
     <dubbo:application name="dubbo-consumer"/>
 
     <!--dubbo注册地址-->
-    <dubbo:registry address="zookeeper://192.168.236.129:2181"/>
-
+    <!--<dubbo:registry protocol="zookeeper" address="192.168.236.128:2181,192.168.236.129:2181,192.168.236.130:2181"/>-->
+    <dubbo:registry address="zookeeper://192.168.236.128:2182"/>
     <!--接口引用-->
-    <dubbo:reference interface="com.myDubbo.service.HelloDubboService" id="helloDubboService"/>
+    <dubbo:reference check="false" interface="com.myDubbo.service.HelloDubboService" id="helloDubboService"/>
 </beans>
