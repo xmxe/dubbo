@@ -6,6 +6,6 @@ import com.alibaba.dubbo.config.annotation.Service;
 public class HelloSBDubboServiceImpl  implements HelloDubboService {
     @Override
     public String helloDubbo(String name) {
-        return "springboot+dubbo:"+name;
+        return "这是springboot+dubbo提供的:"+name;
     }
 }

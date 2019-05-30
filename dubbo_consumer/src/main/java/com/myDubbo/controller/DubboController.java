@@ -12,6 +12,7 @@ public class DubboController {
 
     @RequestMapping("dubboT")
     public String dubboT(String name){
+        //return name;
         return dubboService.helloDubbo(name);
     }
 
