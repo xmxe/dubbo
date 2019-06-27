@@ -11,8 +11,9 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>myDubbo</groupId>
     <artifactId>sb_dubbo_consumer</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
