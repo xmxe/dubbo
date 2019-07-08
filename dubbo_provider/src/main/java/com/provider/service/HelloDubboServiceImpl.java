@@ -1,6 +1,6 @@
-package com.myDubbo.provider.service;
+package com.provider.service;
 
-import com.myDubbo.service.HelloDubboService;
+import com.api.HelloDubboService;
 
 
 public class HelloDubboServiceImpl implements HelloDubboService{

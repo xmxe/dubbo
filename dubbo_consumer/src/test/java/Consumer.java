@@ -1,4 +1,4 @@
-import com.myDubbo.service.HelloDubboService;
+import com.api.HelloDubboService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Consumer {

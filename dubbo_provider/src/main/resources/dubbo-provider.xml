@@ -18,7 +18,7 @@
     <dubbo:protocol name="dubbo" port="20880"/>
 
     <!--接口声明-->
-    <bean id="helloDubboService" class="com.myDubbo.provider.service.HelloDubboServiceImpl"/>
+    <bean id="helloDubboService" class="com.provider.service.HelloDubboServiceImpl"/>
 
-    <dubbo:service interface="com.myDubbo.service.HelloDubboService" ref="helloDubboService"/>
+    <dubbo:service interface="com.api.HelloDubboService" ref="helloDubboService"/>
 </beans>

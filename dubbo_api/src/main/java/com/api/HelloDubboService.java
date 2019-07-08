@@ -1,4 +1,4 @@
-package com.myDubbo.service;
+package com.api;
 
 public interface HelloDubboService {
     String helloDubbo(String name);

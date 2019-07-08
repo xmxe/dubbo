@@ -57,30 +57,10 @@
         <priority value="DEBUG" />
     </category>  
     
-    <category name="com.scheduler">  
-        <priority value="DEBUG" />
-    </category>  
-    
-    <category name="light">  
+    <category name="com.provider">
         <priority value="DEBUG" />
     </category>
-    
-    
-    <!--
-    <category name="java.sql">  
-        <priority value="info" />
-    </category>  
-    
-    <category name="com.scheduler">  
-        <priority value="info" />
-    </category>  
-    
-    <category name="light">  
-        <priority value="info" />
-    </category>
-    -->
-    
-    
+
     <root>  
         <priority value="debug" />  
         <appender-ref ref="console" />  
