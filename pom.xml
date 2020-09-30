@@ -14,8 +14,8 @@
         <module>dubbo_provider2</module>
         <module>dubbo_consumer</module>
         <module>dubbo_api</module>
-        <module>sb_dubbo_provider</module>
-        <module>sb_dubbo_consumer</module>
+        <module>springboot_dubbo_consumer</module>
+        <module>springboot_dubbo_provider</module>
     </modules>
 
 </project>

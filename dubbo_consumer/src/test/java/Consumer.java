@@ -9,6 +9,10 @@ public class Consumer {
 
         String name = "test";
         HelloDubboService service = (HelloDubboService) context.getBean("helloDubboService");
-        System.out.println(service.helloDubbo(name));
+        for(int i = 0;i<10;i++){
+            System.out.println(service.helloDubbo(name));
+        }
+
+
     }
 }
