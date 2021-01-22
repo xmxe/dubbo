@@ -4,18 +4,50 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>myDubbo</groupId>
+    <groupId>com.dubbolearn</groupId>
     <artifactId>myDubbo</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
+        <module>dubbo_api</module>
         <module>dubbo_provider</module>
         <module>dubbo_provider2</module>
         <module>dubbo_consumer</module>
-        <module>dubbo_api</module>
         <module>springboot_dubbo_consumer</module>
         <module>springboot_dubbo_provider</module>
     </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>11</java.version>
+        <spring.version>5.2.6.RELEASE</spring.version>
+        <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
+        <dubbo.version>2.7.3</dubbo.version>
+        <zookeeper.version>3.4.10</zookeeper.version>
+        <zkclient.version>0.10</zkclient.version>
+        <log4j2.version>2.13.2</log4j2.version>
+        <curator.version>2.13.0</curator.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <developers>
+        <developer>
+            <id>xmxe</id>
+            <name>xmxe</name>
+            <url>https://github.com/xmxe</url>
+        </developer>
+    </developers>
 
 </project>
