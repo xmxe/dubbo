@@ -3,8 +3,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Consumer {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context
-                = new ClassPathXmlApplicationContext("classpath:dubbo-consumer.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:dubbo-consumer.xml");
         context.start();
 
         String name = "test";
@@ -12,7 +11,5 @@ public class Consumer {
         for(int i = 0;i<10;i++){
             System.out.println(service.helloDubbo(name));
         }
-
-
     }
 }
