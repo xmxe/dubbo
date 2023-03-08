@@ -17,3 +17,4 @@
 - [dubbo官方文档](http://dubbo.apache.org/zh-cn/docs/user/quick-start.html)
 - [长文图解七种负载均衡策略](https://mp.weixin.qq.com/s/jveqCUAiqKdKRoea9wESbw)
 - [如果Dubbo还没精通原理，就从这里开始吧](https://mp.weixin.qq.com/s/NEfWwnRVOI73_TQurmxk9A)
+- [你知道Dubbo怎么做优雅上下线的吗](https://mp.weixin.qq.com/s/qtIEYXNHhlMOxsP61k12mg)
